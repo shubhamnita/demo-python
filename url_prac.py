@@ -14,7 +14,8 @@ for search_txt in result:
     cnt+=1
 print(cnt)
 
-##########################################################
+############### stackoverfloa code ###########################################
+'''
 import re
 import urllib.request
 from collections import Counter
@@ -30,3 +31,5 @@ with urllib.request.urlopen(URL) as source:
 
 for word in ['India', 'Indian', 'Indians']:
     print('{}: {}'.format(word, counter[word]))
+
+'''
